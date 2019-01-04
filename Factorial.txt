@@ -1,0 +1,74 @@
+<------------------ variables --------------------->
+
+FF -> var
+FE -> fact = 1
+FD -> sum  = 0
+FC -> i
+
+<------------------- program ---------------------->
+
+0C01    LDI  1   // A = 1      ;
+0FFE    STR  FE  // fact = A   ; <=> fact = 1
+
+05	INPUT    // A = input  ;
+0FFF	STR FF   // var = A    ; <=> read(var)
+
+<--------------- factorial while ------------------>
+
+15      MOVE A   // B = A      ;
+0C01 L4:LDI 1    // A = 1      ;
+1B3D    BEQ L3   // Jmp(A==B)  ; <=> while(var!=1)
+
+<-------------- fact multiply var ----------------->
+
+0C00    LDI  0   // A = 0      ;
+0FFD    STR  FD  // sum = A    ; <=> sum = 0	
+
+08FF	LOAD FF  // A = var    ;
+0FFC	STR  FC  // i = A      ; <=> i = var
+15      MOVE A   // B = A      ;
+0C00 L2:LDI 0    // A = 0      ;
+1B2D    BEQ L1   // Jmp(A==B)  ; <=> while(i!=0)
+
+08FD    LOAD FD  // A = sum    ;
+15      MOVE A   // B = A      ;
+08FE    LOAD FE  // A = fact   ;
+16      ADD      // A = A + B  ;
+0FFD    STR FD   // sum = A    ; <=> sum = sum + fact
+
+0C01    LDI 1    // A = 1      ;
+15      MOVE A   // B = A      ;
+08FC    LOAD FC  // A = i      ;
+17      SUB      // A = A - B  ; <=> i--
+0FFC    STR FC   // i = A      ;
+15      MOVE A   // B = A      ;
+
+0C15    LDI L2   // A = L2
+13      JMP      // end multiply while
+
+<------------------ end multiply ------------------>
+
+
+08FD L1:LOAD FD  // A = sum    ;
+0FFE    STR FE   // fact = A   ; <=> fact = fact * var
+
+0C01    LDI 1    // A = 1      ;
+15      MOVE A   // B = A      ;
+08FF    LOAD FF  // A = var    ;
+17      SUB      // A = A - B  ; <=> var--
+0FFF    STR FF   // var = A    ;
+15      MOVE A   // B = A      ;
+
+0C08    LDI L4   // A = L4
+13      JMP      // end factorial while
+
+<------------------ end factorial ----------------->
+
+08FE L3:LOAD FE  // A = fact   ;
+07      OUTPUT   // user = A   ; <=> display(fact)
+04      HLT      // stop pgm   ; <=> end.
+
+<----------------- end program -------------------->    
+
+machine code : 0C010FFE 050FFF - 150C011B3D - 0C000FFD 08FF0FFC150C001B2D 08FD1508FE160FFD 0C011508FC170FFC15 0C1513 - 08FD0FFE 0C011508FF170FFF15 0C0813 - 08FE0704
+
