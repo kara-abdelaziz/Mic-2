@@ -3,7 +3,8 @@ In fact, this project is not only about a processor, but contain a whole Von Neu
 This project was first prescribed like a mini project for college students, it was required for students to implement two basic programs, Factorial program and Fibonacci program.
 
 #Mic-2 architecure schematic on Logisim
-![Mic-2 architecture]https://github.com/kara-abdelaziz/Mic-2/blob/master/Mic-2.png
+
+![Mic-2 architecture](https://github.com/kara-abdelaziz/Mic-2/blob/master/Mic-2.png)
 
 
 
