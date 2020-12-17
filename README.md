@@ -10,6 +10,29 @@ You probably want to execute a program on it, to do so go inside the **Memory** 
 
 You can also write your own program in machine language, although you have to use hexadecimal values to represent instructions opcode of 8 bit each (2 hexadecimal digits), to do so you have to use the list of instructions opcode found in the file _/Micro-code/Micro _Prgram ROM.pdf_. You have 16 different instructions, the instructions opcode are black shaded.
 # Files and directories description
+1. CHAMPS.circ : the main circuit with components created from scratch.
+2. CHAMPS-TTL.circ : the main TTL circuit.
+3. 74xx Libary.circ : 74xx TTL chips library, used in CHAMPS-TTL circuit.
+4. Control Signals.ROM : the Control Signals ROM to use in the CU-ROM (Control Unit) in CHAMPS circuit.
+5. Control Signals-TTL.ROM : the Control Signals ROM to use in the CU-ROM (Control Unit) in CHAMPS-TTL circuit.
+6. Instructions Control Signals.txt : a text file describing the binary content of Control Signals ROM.
+7. Instructions Control Signals [TTL].txt : a text file describing the binary content of Control Signals-TTL ROM.
+8. A Simple and Affordable TTL Processor for the Classroom.pdf : the initial paper describing CHUMP.
+9. mini-projet.pdf : the project statement with a description and a guideline for constructing CHUMP (in french language).
+10. mini-projet [en].pdf : the project statement with a description and a guideline for constructing CHUMP.
+11. factorial.ROM : the binary Factorial program. To load on PGM-ROM (program ROM).
+12. factorial.txt : a text file describing the Factorial program with assembly and pseudo-code.
+13. factorial.RAM : the binary RAM file to use with Factorial program, its porpose is to initialise the program variables. To load on RAM.
+14. fibonacci.ROM : the binary Fibonnaci program. To load on PGM-ROM (program ROM).
+15. fibonacci.txt : a text file describing the Fibonnaci program with assembly and pseudo-code.
+16. test-pgm.ROM : contain the binary code of the program used in Dave Feinberg paper. To load on PGM-ROM (program ROM).
+
+## Notes:
+- Multiple seven segment displays were added to the datapath in the simulation for debugging purposes, allowing the user to see the evolution of the information through the processor.
+- Credit to Ben Oztalay for the amazing 74xx Library. Some missing chips were added.
+
+## Website:
+- [www.el-kalam.com](https://www.el-kalam.com/): my personal website, contains this project and others.
 
 
 
