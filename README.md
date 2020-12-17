@@ -8,7 +8,7 @@ It is very simple to use Mic-2 architecture, all you have to do, is to open the 
 
 You probably want to execute a program on it, to do so go inside the **Memory** bloc, then the **RAM** bloc and load the image of one of the programs found in the directory _/Programs_, you need to load one of the memory image file with the extension **.RAM**.
 
-You can also write your own program in machine language, knowing that you have to use hexadecimal values to represent instructions opcode of 8 bit each (2 hexadecimal digits), todo so you have to check the list of every instruction opcode, the list of all instrctions is found in the file /Micro-code/Micro _Prgram ROM.pdf_. You have 16 different instruction, the instructions opcode are black shadded.
+You can also write your own program in machine language, although you have to use hexadecimal values to represent instructions opcode of 8 bit each (2 hexadecimal digits), todo so you have to check the list of instructions opcode, the list of all instrctions is found in the file _/Micro-code/Micro _Prgram ROM.pdf_. You have 16 different instruction, the instructions opcode are black shadded.
 
 
 
