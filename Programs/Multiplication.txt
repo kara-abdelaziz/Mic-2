@@ -1,0 +1,46 @@
+FF -> var1
+FE -> var2
+FD -> sum = 0
+FC -> i = var2
+
+<---------------- var1 multiply var2 ------------------->
+
+05	INPUT    // A = input  ;
+0FFF	STR FF   // var = A    ; <=> read(var1)
+
+05	INPUT    // A = input  ;
+0FFE	STR FE   // var2 = A   ; <=> read(var2)
+
+0C00    LDI  0   // A = 0      ;
+0FFD    STR  FD  // sum = A    ; <=> sum = 0	
+
+08FE	LOAD FE  // A = var2   ;
+0FFC	STR  FC  // i = A      ; <=> i = var2
+15	MOVE A   // B = A      ;
+0C00 L2:LDI 0    // A = 0      ;
+1B27    BEQ L1   // Jmp(A==B)  ; <=> while(i!=0)
+
+08FD    LOAD FD  // A = sum    ;
+15      MOVE A   // B = A      ;
+08FF    LOAD FF  // A = var1   ;
+16      ADD      // A = A + B  ;
+0FFD    STR FD   // sum = A    ; <=> sum = sum + var1
+
+0C01    LDI 1    // A = 1      ;
+15      MOVE A   // B = A      ;
+08FC    LOAD FC  // A = i      ;
+17      SUB      // A = A - B  ; <=> i--
+0FFC    STR FC   // i = A      ;
+15	MOVE A   // B = A      ;
+
+0C0F    LDI 0F   // A = L2
+13      JMP      // end while
+
+08FD L1:LOAD FD  // A = sum    ;
+07      OUTPUT   // user = A   ; <=> display(sum)
+04      HLT      // stop pgm   ; <=> end.
+
+machine code : 050FFF050FFE 0C000FFD 08FE0FFC150C001B27 08FD1508FF160FFD 0C011508FC170FFC15 0C0F13 08FD0704
+
+<---------------- var1 multiply var2 ------------------->
+
