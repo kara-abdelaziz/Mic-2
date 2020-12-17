@@ -29,12 +29,6 @@ You can also write your own program in machine language, although you have to us
 
 ## Notes:
 - Multiple seven segment displays were added to the datapath in the simulation for debugging purposes, allowing the user to see the evolution of the information through the processor.
-- Credit to Ben Oztalay for the amazing 74xx Library. Some missing chips were added.
 
 ## Website:
 - [www.el-kalam.com](https://www.el-kalam.com/): my personal website, contains this project and others.
-
-
-
-
-
