@@ -3,9 +3,11 @@ In fact, this project is not only about a processor, but contain a whole Von Neu
 This project was first prescribed like a mini project for college students, it was required for students to implement two basic programs, Factorial program and Fibonacci program.
 # Mic-2 architecure schematic on Logisim
 ![Mic-2 architecture](https://github.com/kara-abdelaziz/Mic-2/blob/master/Mic-2.png)
-#How to use it
+# How to use it
 It is very simple to use Mic-2 architecture, all you have to do, is to open the file **Mic-2 Architeture.circ** with [Logsim](http://www.cburch.com/logisim/) and you have the entire architecture.
+
 You probably want to execute a program on it, todo so go to inside the Memoory bloc then RAM bloc and load the image of one of the programs allready programmed found inside the directory /Programs, you need to load one of the memory image file with the extenetion **.RAM**.
+
 You can also write your ouwn program in machine language, knowing that you have to use hexadecimal values to represent instructions opcode of 8 bit each (2 hexadecimal digits), so you have to check the list of every instruction opcode, the list of all instrctions is found in the file **/Micro-code/Micro Prgram ROM.pdf**. You have 16 different instruction.
 
 
