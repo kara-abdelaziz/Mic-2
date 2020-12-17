@@ -4,11 +4,11 @@ This project was first prescribed like a mini project for college students, it w
 # Mic-2 architecure schematic on Logisim
 ![Mic-2 architecture](https://github.com/kara-abdelaziz/Mic-2/blob/master/Mic-2.png)
 # How to use it
-It is very simple to use Mic-2 architecture, all you have to do, is to open the file **Mic-2 Architeture.circ** with [Logsim](http://www.cburch.com/logisim/) and you have the entire architecture.
+It is very simple to use Mic-2 architecture, all you have to do, is to open the file __Mic-2 Architeture.circ__ with [Logsim](http://www.cburch.com/logisim/) and you have the entire architecture to play with.
 
-You probably want to execute a program on it, todo so go to inside the Memoory bloc then RAM bloc and load the image of one of the programs allready programmed found inside the directory /Programs, you need to load one of the memory image file with the extenetion **.RAM**.
+You probably want to execute a program on it, todo so go inside the **Memory** bloc then the **RAM** bloc and load the image of one of the programs allready programmed found inside the directory /Programs, you need to load one of the memory image file with the extenetion **.RAM**.
 
-You can also write your ouwn program in machine language, knowing that you have to use hexadecimal values to represent instructions opcode of 8 bit each (2 hexadecimal digits), so you have to check the list of every instruction opcode, the list of all instrctions is found in the file **/Micro-code/Micro Prgram ROM.pdf**. You have 16 different instruction.
+You can also write your own program in machine language, knowing that you have to use hexadecimal values to represent instructions opcode of 8 bit each (2 hexadecimal digits), todo so you have to check the list of every instruction opcode, the list of all instrctions is found in the file __/Micro-code/Micro Prgram ROM.pdf__. You have 16 different instruction, the instructions opcode are black shadded.
 
 
 
