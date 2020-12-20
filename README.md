@@ -18,6 +18,7 @@ You can also write your own program in machine language, although you have to us
 1. Item 3
    1. Item 3a
    1. Item 3b
+   2.55
 6. Instructions Control Signals.txt : a text file describing the binary content of Control Signals ROM.
 7. Instructions Control Signals [TTL].txt : a text file describing the binary content of Control Signals-TTL ROM.
 8. A Simple and Affordable TTL Processor for the Classroom.pdf : the initial paper describing CHUMP.
