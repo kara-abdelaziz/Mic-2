@@ -14,9 +14,9 @@ You can also write your own program in machine language, although you have to us
 2. Mic-2.png : the image above.
 3. README.md : this text.
 4. Micro-code : directory that contains 3 files related to the micro-program and the op-codes of all instructions.
-4.1. MicroProgram.ROM : the ROM to be used inside the Command and Control Unit (UCC), exactly within MP-ROM, it contains the micro-instructions.
-4.2. Micro Prgram ROM.pdf : this table contains all the micro-instructions and their interpretation, the op-codes for instructions are black shaded.
-4.3. Micro Prgram ROM.odt : it's the source of the pdf version above, it is only meant to allow its modification by libre office when adding more instructions.
+  1. MicroProgram.ROM : the ROM to be used inside the Command and Control Unit (UCC), exactly within MP-ROM, it contains the micro-instructions.
+  2. Micro Prgram ROM.pdf : this table contains all the micro-instructions and their interpretation, the op-codes for instructions are black shaded.
+  3. Micro Prgram ROM.odt : it's the source of the pdf version above, it is only meant to allow its modification by libre office when adding more instructions.
 5. Programs : directory that contains 3 elementary programs to use within Mic-2; factorial, fibonacci and 2 integers multiplication.
 5.1. Factorial.RAM : the binary file of the factorial program to put in the RAM.
 5.2. Factorial.txt : the assembler code of the factorial program, its allow understanding the generation of the binary version of the program.
