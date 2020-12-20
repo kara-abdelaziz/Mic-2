@@ -14,7 +14,6 @@ You can also write your own program in machine language, although you have to us
 2. Mic-2.png : the image above.
 3. README.md : this text.
 4. Micro-code directory : contains 3 files related to the micro-program and the op-codes of all instructions.
-
    4.1. MicroProgram.ROM : the ROM to be used inside the Command and Control Unit (UCC), exactly within MP-ROM, it contains the micro-instructions.
 1. Item 3
    1. Item 3a
