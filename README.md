@@ -10,11 +10,11 @@ You probably want to execute a program on it, to do so go inside the **Memory** 
 
 You can also write your own program in machine language, although you have to use hexadecimal values to represent instructions opcode of 8 bit each (2 hexadecimal digits), to do so you have to use the list of instructions opcode found in the file _/Micro-code/Micro _Prgram ROM.pdf_. You have 16 different instructions, the instructions opcode are black shaded.
 # Files and directories description
-1. CHAMPS.circ : the main circuit with components created from scratch.
-2. CHAMPS-TTL.circ : the main TTL circuit.
-3. 74xx Libary.circ : 74xx TTL chips library, used in CHAMPS-TTL circuit.
-4. Control Signals.ROM : the Control Signals ROM to use in the CU-ROM (Control Unit) in CHAMPS circuit.
-5. Control Signals-TTL.ROM : the Control Signals ROM to use in the CU-ROM (Control Unit) in CHAMPS-TTL circuit.
+1. Mic-2 Architeture.circ : the main circuit, contains all the components, sufficient to run all the architecture.
+2. Mic-2.png : the image above.
+3. README.md : this text.
+4. Micro-code directory : contains 3 files related to the micro-program and the op-codes of all instructions.
+  4.1. MicroProgram.ROM : the ROM to be used inside the Command and Control Unit (UCC), exactly within MP-ROM, it contains the micro-instructions.
 6. Instructions Control Signals.txt : a text file describing the binary content of Control Signals ROM.
 7. Instructions Control Signals [TTL].txt : a text file describing the binary content of Control Signals-TTL ROM.
 8. A Simple and Affordable TTL Processor for the Classroom.pdf : the initial paper describing CHUMP.
