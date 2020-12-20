@@ -15,6 +15,9 @@ You can also write your own program in machine language, although you have to us
 3. README.md : this text.
 4. Micro-code directory : contains 3 files related to the micro-program and the op-codes of all instructions.
    4.1. MicroProgram.ROM : the ROM to be used inside the Command and Control Unit (UCC), exactly within MP-ROM, it contains the micro-instructions.
+1. Item 3
+   1. Item 3a
+   1. Item 3b
 6. Instructions Control Signals.txt : a text file describing the binary content of Control Signals ROM.
 7. Instructions Control Signals [TTL].txt : a text file describing the binary content of Control Signals-TTL ROM.
 8. A Simple and Affordable TTL Processor for the Classroom.pdf : the initial paper describing CHUMP.
