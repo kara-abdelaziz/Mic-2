@@ -34,7 +34,7 @@ You can also write your own program in machine language, although you have to us
 
 ## Notes:
 - Multiple seven segment displays were added to the datapath in the simulation for debugging purposes, allowing the user to see the evolution of the information through the processor.
-- The Memory contains additional circuitry for debugging purposes, its allows the hot modification of the RAM cells. This circuitry could makes feel like the Memory bloc is more complex than it should be.
+- The Memory contains additional circuitry for debugging purposes, its allows the hot modification of the RAM cells. This circuitry could make feel like the Memory bloc is more complex than it should be.
 
 ## Website:
 - [www.el-kalam.com](https://www.el-kalam.com/): my personal website, contains this project and others.
