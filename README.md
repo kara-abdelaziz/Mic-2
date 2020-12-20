@@ -14,9 +14,9 @@ You can also write your own program in machine language, although you have to us
 2. Mic-2.png : the image above.
 3. README.md : this text.
 4. Micro-code : directory that contains 3 files related to the micro-program and the op-codes of all instructions.
-  1. MicroProgram.ROM : the ROM to be used inside the Command and Control Unit (UCC), exactly within MP-ROM, it contains the micro-instructions.
-  2. Micro Prgram ROM.pdf : this table contains all the micro-instructions and their interpretation, the op-codes for instructions are black shaded.
-  3. Micro Prgram ROM.odt : it's the source of the pdf version above, it is only meant to allow its modification by libre office when adding more instructions.
+   1. MicroProgram.ROM : the ROM to be used inside the Command and Control Unit (UCC), exactly within MP-ROM, it contains the micro-instructions.
+   2. Micro Prgram ROM.pdf : this table contains all the micro-instructions and their interpretation, the op-codes for instructions are black shaded.
+   3. Micro Prgram ROM.odt : it's the source of the pdf version above, it is only meant to allow its modification by libre office when adding more instructions.
 5. Programs : directory that contains 3 elementary programs to use within Mic-2; factorial, fibonacci and 2 integers multiplication.
 5.1. Factorial.RAM : the binary file of the factorial program to put in the RAM.
 5.2. Factorial.txt : the assembler code of the factorial program, its allow understanding the generation of the binary version of the program.
@@ -27,7 +27,8 @@ You can also write your own program in machine language, although you have to us
 6. Project statement : directory containing text files for the description in french language of the processor and the architecture working.
 6.1. mini-projet.pdf : contains the project statement for students on how to implement Mic-2 (in french language).
 6.2. mini-projet.pdf : same as the PDF version above, to be open with libre office.
-7. 
+7. ROMs : directory containing the display unit ROMs file.
+7.1. 
 
 ## Notes:
 - Multiple seven segment displays were added to the datapath in the simulation for debugging purposes, allowing the user to see the evolution of the information through the processor.
