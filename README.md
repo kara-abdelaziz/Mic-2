@@ -26,7 +26,7 @@ You can also write your own program in machine language, although you have to us
    6. Multiplication.txt : the assembler code of the multiplication program, its allow understanding the generation of the binary version of the program.
 6. Project statement : directory containing text files for the description in french language of the processor and the architecture working.
    1. mini-projet.pdf : contains the project statement for students on how to implement Mic-2 (in french language).
-   2. mini-projet.pdf : same as the PDF version above, to be open with libre office.
+   2. mini-projet.odt : same as the PDF version above, to be open with libre office.
 7. ROMs : directory containing the display unit ROMs file.
    1. Ones digits.ROM : ROM file for the ones seven segment digit display.
    2. Tens digits.ROM : ROM file for the tens seven segment digit display.
@@ -34,6 +34,7 @@ You can also write your own program in machine language, although you have to us
 
 ## Notes:
 - Multiple seven segment displays were added to the datapath in the simulation for debugging purposes, allowing the user to see the evolution of the information through the processor.
+- The Memory contains additional circuitry for debugging purposes, its allows the hot modification of the RAM cells. This circuitry could makes feel like the Memory bloc is more complex than it should be.
 
 ## Website:
 - [www.el-kalam.com](https://www.el-kalam.com/): my personal website, contains this project and others.
