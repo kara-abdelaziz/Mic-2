@@ -37,4 +37,4 @@ You can also write your own program in machine language, although you have to us
 - The Memory contains additional circuitry for debugging purposes, its allows the hot modification of the RAM cells. This circuitry could make feel like the Memory bloc is more complex than it should be.
 
 ## Website:
-- [www.el-kalam.com](https://www.el-kalam.com/): my personal website, contains this project and others.
+- [www.el-kalam.com](https://www.el-kalam.com/projets/processeur-mic-2/): my personal website, contains this project and others.
